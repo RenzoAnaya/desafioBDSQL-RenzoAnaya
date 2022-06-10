@@ -5,7 +5,7 @@ const router = Router()
 
 
 
-const api = new Api(options.mysql,'productos')
+const api = new Api(options.client,'productos')
 
 const isAdmin = false
 
